@@ -1,0 +1,37 @@
+.nav-link3 {
+    color: #00ACEE;
+    font-size: 18px;
+}
+
+#tweetbtn{
+    background-color: #00ACEE; 
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.nav-link{
+    border-radius: 50px;
+    margin-left: 65px; 
+    font-size: 20px; 
+    color: black;
+}
+
+h2{
+    top:30px; 
+    left: 70px; 
+    font-size:15px; 
+}
+
+.nav-link:hover{
+    background-color: #ccc;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:1000px) {
+    .hide_text span{
+         display: none;
+    }
+    .hide_text a{
+         width: 55px;
+    }
+}
